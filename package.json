@@ -1,0 +1,41 @@
+{
+  "name": "oddsdrew",
+  "version": "1.0.0",
+  "license": "ISC",
+  "main": "index.js",
+  "private": true,
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "cli:install": "--filter=client install",
+    "cli:update": "--filter=client update",
+    "cli:add": "--filter=client add",
+    "cli:dev": "--filter=client dev",
+    "srv:install": "--filter=server install",
+    "srv:update": "--filter=server update",
+    "srv:add": "--filter=server add",
+    "srv:dev": "--filter=server dev",
+    "lint": "eslint src --ext js,jsx,ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}'",
+    "format-check": "prettier --check './**/*.{js,jsx,ts,tsx,css,md,json}'",
+    "clean": "rm -rf node_modules"
+  },
+  "dependencies": {
+    "@manypkg/cli": "^0.19.2",
+    "dotenv": "^16.3.1",
+    "dotenv-expand": "^9.0.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.5",
+    "prettier": "^2.8.8"
+  }
+}

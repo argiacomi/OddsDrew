@@ -1,0 +1,36 @@
+{
+  "name": "oddsdrew-client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@floating-ui/dom": "^1.5.1",
+    "@tanstack/react-query": "^4.35.0",
+    "@tanstack/react-table": "^8.9.8",
+    "nanoid": "^4.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-legacy": "^4.1.1",
+    "@vitejs/plugin-react": "^4.0.4",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-styled-components": "^2.1.4",
+    "clsx": "^1.2.1",
+    "color": "^4.2.3",
+    "path": "^0.12.7",
+    "react-icons": "^4.11.0",
+    "react-is": "^18.2.0",
+    "react-transition-group": "^4.4.5",
+    "styled-components": "6.0.0-rc.6",
+    "vite": "^4.4.9"
+  }
+}

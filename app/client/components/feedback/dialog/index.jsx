@@ -1,0 +1,10 @@
+export { default } from './dialog';
+export * from './dialog';
+export { default as DialogActions } from './dialogActions';
+export * from './dialogActions';
+export { default as DialogContent } from './dialogContent';
+export * from './dialogContent';
+export { default as DialogContentText } from './dialogContentText';
+export * from './dialogContentText';
+export { default as DialogTitle } from './dialogTitle';
+export * from './dialogTitle';
